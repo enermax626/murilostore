@@ -7,6 +7,8 @@ spring:
     driverClassName: org.h2.Driver
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
   # H2 console configuration
   h2:
     console.enabled: true
