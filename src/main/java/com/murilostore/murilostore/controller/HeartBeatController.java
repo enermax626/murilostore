@@ -8,6 +8,6 @@ public class HeartBeatController {
 
     @GetMapping
     public String heartBeat() {
-        return "OK - Murilo Store";
+        return "OK - Murilo Store - development";
     }
 }
