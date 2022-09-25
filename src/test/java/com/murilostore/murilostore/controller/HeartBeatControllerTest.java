@@ -23,7 +23,7 @@ class HeartBeatControllerTest {
     void shouldGetHeartBeatThenReturnOK() throws Exception {
         mockMvc.perform(get("/"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("OK"));
+                .andExpect(content().string("OK - Murilo Store"));
 
     }
 }
